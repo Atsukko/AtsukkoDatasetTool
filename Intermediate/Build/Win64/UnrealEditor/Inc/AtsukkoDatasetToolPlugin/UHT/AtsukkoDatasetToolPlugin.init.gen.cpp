@@ -17,7 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeAtsukkoDatasetToolPlugin_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xCBEC9B52,
+				0x894348CC,
 				0x5981D9CE,
 				METADATA_PARAMS(nullptr, 0)
 			};
@@ -25,5 +25,5 @@ void EmptyLinkFunctionForGeneratedCodeAtsukkoDatasetToolPlugin_init() {}
 		}
 		return Z_Registration_Info_UPackage__Script_AtsukkoDatasetToolPlugin.OuterSingleton;
 	}
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_AtsukkoDatasetToolPlugin(Z_Construct_UPackage__Script_AtsukkoDatasetToolPlugin, TEXT("/Script/AtsukkoDatasetToolPlugin"), Z_Registration_Info_UPackage__Script_AtsukkoDatasetToolPlugin, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0xCBEC9B52, 0x5981D9CE));
+	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_AtsukkoDatasetToolPlugin(Z_Construct_UPackage__Script_AtsukkoDatasetToolPlugin, TEXT("/Script/AtsukkoDatasetToolPlugin"), Z_Registration_Info_UPackage__Script_AtsukkoDatasetToolPlugin, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x894348CC, 0x5981D9CE));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

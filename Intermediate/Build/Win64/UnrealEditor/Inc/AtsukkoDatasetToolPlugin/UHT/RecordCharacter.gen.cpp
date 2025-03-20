@@ -309,6 +309,10 @@ void EmptyLinkFunctionForGeneratedCodeRecordCharacter() {}
 #endif
 		static const UECodeGen_Private::FStrPropertyParams NewProp_DatasetDir;
 #if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_PlayRate_MetaData[];
+#endif
+		static const UECodeGen_Private::FFloatPropertyParams NewProp_PlayRate;
+#if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_DefaultMappingContext_MetaData[];
 #endif
 		static const UECodeGen_Private::FObjectPropertyParams NewProp_DefaultMappingContext;
@@ -369,6 +373,13 @@ void EmptyLinkFunctionForGeneratedCodeRecordCharacter() {}
 #endif
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UClass_ARecordCharacter_Statics::NewProp_DatasetDir = { "DatasetDir", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(ARecordCharacter, DatasetDir), METADATA_PARAMS(Z_Construct_UClass_ARecordCharacter_Statics::NewProp_DatasetDir_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ARecordCharacter_Statics::NewProp_DatasetDir_MetaData)) };
 #if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ARecordCharacter_Statics::NewProp_PlayRate_MetaData[] = {
+		{ "Category", "RecordCharacter" },
+		{ "ModuleRelativePath", "Public/RecordCharacter.h" },
+	};
+#endif
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ARecordCharacter_Statics::NewProp_PlayRate = { "PlayRate", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(ARecordCharacter, PlayRate), METADATA_PARAMS(Z_Construct_UClass_ARecordCharacter_Statics::NewProp_PlayRate_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ARecordCharacter_Statics::NewProp_PlayRate_MetaData)) };
+#if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ARecordCharacter_Statics::NewProp_DefaultMappingContext_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
 		{ "Category", "Input" },
@@ -383,6 +394,7 @@ void EmptyLinkFunctionForGeneratedCodeRecordCharacter() {}
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ARecordCharacter_Statics::NewProp_bPlayingFinished,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ARecordCharacter_Statics::NewProp_ImageSize,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ARecordCharacter_Statics::NewProp_DatasetDir,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ARecordCharacter_Statics::NewProp_PlayRate,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ARecordCharacter_Statics::NewProp_DefaultMappingContext,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ARecordCharacter_Statics::StaticCppClassTypeInfo = {
@@ -422,9 +434,9 @@ void EmptyLinkFunctionForGeneratedCodeRecordCharacter() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_AtsukkoDatasetTool_Plugins_AtsukkoDatasetToolPlugin_Source_AtsukkoDatasetToolPlugin_Public_RecordCharacter_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_ARecordCharacter, ARecordCharacter::StaticClass, TEXT("ARecordCharacter"), &Z_Registration_Info_UClass_ARecordCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ARecordCharacter), 1178707263U) },
+		{ Z_Construct_UClass_ARecordCharacter, ARecordCharacter::StaticClass, TEXT("ARecordCharacter"), &Z_Registration_Info_UClass_ARecordCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ARecordCharacter), 1554088799U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_AtsukkoDatasetTool_Plugins_AtsukkoDatasetToolPlugin_Source_AtsukkoDatasetToolPlugin_Public_RecordCharacter_h_2904233875(TEXT("/Script/AtsukkoDatasetToolPlugin"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_AtsukkoDatasetTool_Plugins_AtsukkoDatasetToolPlugin_Source_AtsukkoDatasetToolPlugin_Public_RecordCharacter_h_2551553153(TEXT("/Script/AtsukkoDatasetToolPlugin"),
 		Z_CompiledInDeferFile_FID_AtsukkoDatasetTool_Plugins_AtsukkoDatasetToolPlugin_Source_AtsukkoDatasetToolPlugin_Public_RecordCharacter_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_AtsukkoDatasetTool_Plugins_AtsukkoDatasetToolPlugin_Source_AtsukkoDatasetToolPlugin_Public_RecordCharacter_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

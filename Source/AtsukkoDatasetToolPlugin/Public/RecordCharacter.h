@@ -105,7 +105,10 @@ public:
 	int32 ImageSize = 460;
 
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)
-	FString DatasetDir = "D:/Unreal/projects/AtsukkoDatasetTool/Plugins/AtsukkoDatasetToolPlugin/Content/Dataset/data/";
+	FString DatasetDir = FPaths::ProjectPluginsDir() + "AtsukkoDatasetToolPlugin/Content/Dataset/data/";
+
+	UPROPERTY(BlueprintReadWrite, EditAnywhere)
+	float PlayRate = .5f;
 
 	/** MappingContext */
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, meta = (AllowPrivateAccess = "true"))

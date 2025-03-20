@@ -305,7 +305,7 @@ void ARecordCharacter::HandleAnimationAutoplay(const TArray<UAnimationAsset*>& A
 	if(++CurPlayingAnimationInd < AnimationsPendingPlay.Num())
 	{
 		SKMeshComponent->PlayAnimation(AnimationsPendingPlay[CurPlayingAnimationInd], false);
-		SKMeshComponent->SetPlayRate(.5f);
+		SKMeshComponent->SetPlayRate(PlayRate);
 	}
 	else
 	{
