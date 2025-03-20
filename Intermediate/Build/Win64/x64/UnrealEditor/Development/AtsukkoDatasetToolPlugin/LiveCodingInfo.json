@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AtsukkoDatasetToolPlugin.cpp.obj": [
+			"AtsukkoDatasetToolPlugin.init.gen.cpp.obj",
+			"RecordCharacter.gen.cpp.obj",
+			"AtsukkoDatasetToolPlugin.cpp.obj",
+			"RecordCharacter.cpp.obj"
+		]
+	}
+}

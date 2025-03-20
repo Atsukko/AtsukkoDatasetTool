@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\unreal\\projects\\atsukkodatasettool\\plugins\\atsukkodatasettoolplugin\\source\\atsukkodatasettoolplugin\\private\\atsukkodatasettoolplugin.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\unreal\\projects\\atsukkodatasettool\\intermediate\\build\\win64\\x64\\atsukkodatasettooleditor\\development\\engine\\sharedpch.engine.shadowerrors.inclorderunreal5_1.h.pch",
+        "Includes": [
+            "d:\\unreal\\projects\\atsukkodatasettool\\plugins\\atsukkodatasettoolplugin\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\atsukkodatasettoolplugin\\definitions.atsukkodatasettoolplugin.h",
+            "d:\\unreal\\projects\\atsukkodatasettool\\plugins\\atsukkodatasettoolplugin\\source\\atsukkodatasettoolplugin\\public\\atsukkodatasettoolplugin.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

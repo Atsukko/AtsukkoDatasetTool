@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-AtsukkoDatasetToolPlugin.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Unreal\projects\AtsukkoDatasetTool\Intermediate\Build\Win64\x64\AtsukkoDatasetToolEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_1.h.obj"
+"D:\Unreal\projects\AtsukkoDatasetTool\Plugins\AtsukkoDatasetToolPlugin\Intermediate\Build\Win64\x64\UnrealEditor\Development\AtsukkoDatasetToolPlugin\Module.AtsukkoDatasetToolPlugin.cpp.obj"
+"D:\Unreal\projects\AtsukkoDatasetTool\Plugins\AtsukkoDatasetToolPlugin\Intermediate\Build\Win64\x64\UnrealEditor\Development\AtsukkoDatasetToolPlugin\Default.rc2.res"
+/OUT:"D:\Unreal\projects\AtsukkoDatasetTool\Plugins\AtsukkoDatasetToolPlugin\Intermediate\Build\Win64\x64\UnrealEditor\Development\AtsukkoDatasetToolPlugin\UnrealEditor-AtsukkoDatasetToolPlugin.lib"
